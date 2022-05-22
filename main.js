@@ -3,7 +3,6 @@ const container = document.querySelector(".text-container");
 
 const members = [
   "모상빈",
-  "김기욱",
   "이혜진",
   "이동기",
   "김현수",
@@ -11,6 +10,8 @@ const members = [
   "송슬기",
   "정혜선",
   "지영준",
+  "유현주",
+  "염혜지",
 ];
 
 function shuffle(array) {
@@ -40,9 +41,11 @@ button.addEventListener("click", () => {
     </p>
     <p>
       <span>PAIR4</span> - <span class='name'>${members[6]}</span>님,
-      <span class='name'>${members[7]}</span>님, 
-      <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class='name'>
-      ${members[8]}</span>님
+      <span class='name'>${members[7]}</span>님
+    </p>
+    <p>
+      <span>PAIR5</span> - <span class='name'>${members[8]}</span>님,
+      <span class='name'>${members[9]}</span>님
     </p>
   `;
 });
