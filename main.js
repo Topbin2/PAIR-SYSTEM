@@ -12,6 +12,8 @@ const members = [
   "유현주",
   "염혜지",
   "이은지",
+  "이주한",
+  "박지영",
 ];
 
 function shuffle(array) {
@@ -46,6 +48,10 @@ button.addEventListener("click", () => {
     <p>
       <span>PAIR5</span> - <span class='name'>${members[8]}</span>님,
       <span class='name'>${members[9]}</span>님
+    </p>
+    <p>
+    <span>PAIR5</span> - <span class='name'>${members[10]}</span>님,
+    <span class='name'>${members[11]}</span>님
     </p>
   `;
 });
